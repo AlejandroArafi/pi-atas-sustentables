@@ -1,11 +1,19 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import "../styles/global.css"; // ruta relativa correcta
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.jsx";
+import Products from "../components/Products.jsx";
+import Features from "../components/Features.jsx";
+import Testimonials from "../components/Testimonials.jsx";
+import Contact from "../components/Contact.jsx";
+import Footer from "../components/Footer.jsx";
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Piñatas Mágicas - Las Mejores Piñatas para tu Fiesta">
+  <Hero client:load />
+  <Products client:load />
+  <Features client:load />
+  <Testimonials client:load />
+  <Contact client:load />
+  <Footer />
 </Layout>
