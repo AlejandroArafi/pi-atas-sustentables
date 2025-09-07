@@ -114,7 +114,7 @@ export default function Products() {
       : products.filter((product) => product.category === activeCategory);
 
   return (
-    <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-yellow-50">
+    <section id="catalogo" className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-yellow-50">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

@@ -76,7 +76,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Teléfono</p>
-                    <p className="text-purple-200">+56 9 1234 5678</p>
+                    <p className="text-purple-200">+56 9 9865 7296</p>
                   </div>
                 </div>
 
@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-white font-semibold">Email</p>
-                    <p className="text-purple-200">hola@pinatasmagicas.cl</p>
+                    <p className="text-purple-200">piñatasreutilizables@gmail.com</p>
                   </div>
                 </div>
 

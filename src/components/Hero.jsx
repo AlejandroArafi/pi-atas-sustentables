@@ -75,7 +75,7 @@ export default function Hero() {
               <div className="flex items-center justify-center lg:justify-start gap-2 text-pink-600">
                 <Sparkles className="w-6 h-6" />
                 <span className="text-sm font-semibold uppercase tracking-wider">
-                  Piñatas Premium
+                  Piñatas Sustentables
                 </span>
                 <Sparkles className="w-6 h-6" />
               </div>
@@ -109,7 +109,14 @@ export default function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2">
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("catalogo")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+                className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2"
+              >
                 <Gift className="w-5 h-5" />
                 Ver Catálogo
               </button>

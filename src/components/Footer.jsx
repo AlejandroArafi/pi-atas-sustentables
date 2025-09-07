@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-              Piñatas Mágicas
+              Piñatas Sustentables
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Creamos momentos mágicos con las piñatas más increíbles de Chile.
@@ -90,11 +90,11 @@ export default function Footer() {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-pink-400" />
-                <span>+56 9 1234 5678</span>
+                <span>+56 9 9865 7296</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-pink-400" />
-                <span>hola@pinatasmagicas.cl</span>
+                <span>piñatasreutilizables@gmail.com</span>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © 2024 Piñatas Mágicas. Todos los derechos reservados.
+            © 2025 Piñatas Sustentables. Todos los derechos reservados.
           </p>
           <p className="text-gray-400 text-sm flex items-center gap-1">
             Hecho con <Heart className="w-4 h-4 text-red-500" /> en Chile
