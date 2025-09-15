@@ -9,21 +9,21 @@ export default function Hero() {
       title: "¡Piñatas que Hacen Magia!",
       subtitle: "Convierte cualquier celebración en una fiesta inolvidable",
       image:
-        "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "/images/sliderHero/hero1.jpg",
       color: "from-pink-500 to-purple-600",
     },
     {
       title: "Diseños Únicos y Personalizados",
       subtitle: "Cada piñata es una obra de arte hecha con amor",
       image:
-        "https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "/images/sliderHero/hero2.jpg",
       color: "from-yellow-400 to-orange-500",
     },
     {
       title: "Calidad Premium Garantizada",
       subtitle: "Materiales resistentes para la diversión más intensa",
       image:
-        "https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "/images/sliderHero/hero3.jpg",
       color: "from-green-400 to-blue-500",
     },
   ];
@@ -142,7 +142,8 @@ export default function Hero() {
 
           {/* Image Carousel */}
           <div className="relative">
-            <div className="relative w-full h-96 lg:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            {/* ajusta el tamaño del slider */}
+            <div className="relative w-full aspect-[3/4] max-h-[700px] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={slides[currentSlide].image}
                 alt="Piñata"
